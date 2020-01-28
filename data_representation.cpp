@@ -65,5 +65,28 @@ ox24
 Binary to hex: 1000111100
 Group from right to left into 4 bits
 And then figure out what the binary number is for each
+
+Encoding scheme: a table that designates patterns to symbols
+It's generalized
+
+n bits -> 2^n patterns
+The maximum positive value that can be stored in a byte is 255
+Because 0 exists
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Negative numbers (NOT ON EXAM)
+2's complement
+_  _ _ _
+-8 4 2 1 
+
+So -7 would be
+1 0 0 1
+
+-6 would be
+1 0 1 0
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Map characters to numbers using ASCII scheme
+
 */
 
