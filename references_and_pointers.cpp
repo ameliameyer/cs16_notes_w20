@@ -96,4 +96,18 @@ int main(){
 // cout &y; is 112
 // cout << &p is 100
 // cout << *p; is 3
-// References are stuck, but pointers are not6
+// Called de-referencing a pointer
+// References are stuck, but pointers are not
+
+/*
+int *p;
+p = &y;  // get the address and intialize p to point to y
+*/
+
+/*
+int *p, y;
+y =3;
+p = &y;
+*p = 5;  // changes the value of y 
+// To get to y you need to access the pointer of p using *p because p gives the address
+*/
