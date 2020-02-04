@@ -91,3 +91,9 @@ int main(){
 // Assign the address of an integer to p
 // After you make a pointer point to another thing
 // You can access it through the pointer
+// *p is the same as y 
+// cout << p; is 112
+// cout &y; is 112
+// cout << &p is 100
+// cout << *p; is 3
+// References are stuck, but pointers are not6
