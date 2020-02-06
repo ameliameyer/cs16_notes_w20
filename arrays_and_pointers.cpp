@@ -41,10 +41,25 @@ int main(){
         cout<<numArray[i]<<" ";
 
     }
+    cout<<endl;
     // Second way, using range based for loop C++11
-    for(int item: numArray){
-        cout<<item<<" "; // prints each element of the array
+    for(int &item:numArray){
+        item = 10;
+        // if you change item, you won't change anything in the array unless you
+        // put an ampersand in front of item
+        // otherwise it's just a copy 
     }
-    
+
+    for(int item:numArray){
+        cout<<item<<" "; // prints each element of the array
+
+    // Need to know how to iterate through arrays
+    // More difficult when dealing with arrays of characters 
+
+    string name = "Diba"; initializing a strings
+    cout<<"Length of "<<name<<" "<<hname.length()<<endl;
+
+
+
     return 0;
 }
