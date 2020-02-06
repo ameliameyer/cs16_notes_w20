@@ -57,6 +57,15 @@ int main(){
     // More difficult when dealing with arrays of characters 
 
     string name = "Diba"; initializing a strings
+    // you'll have an extra character called the null terminator in the case of the string
+    for (int i = 0; i <= name.length(); i++){
+        cout<<name[i];
+        if (name[i] == 0){
+            cout<<"\nReached the end of the string"<<endl;
+        }
+    }
+    cout<<endl;
+
     char pet [] = {'D','i','b','a'};
     // could do
     name = name + " Mirza";
