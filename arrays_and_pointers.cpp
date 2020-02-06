@@ -57,7 +57,14 @@ int main(){
     // More difficult when dealing with arrays of characters 
 
     string name = "Diba"; initializing a strings
-    cout<<"Length of "<<name<<" "<<hname.length()<<endl;
+    char pet [] = {'D','i','b','a'};
+    // could do
+    name = name + " Mirza";
+    // but you cannot do
+    // pet = pet + " Mirza"; 
+    // because you're adding a string to a char
+
+    cout<<"Length of "<<name<<" "<<name.length()<<endl;
 
 
 
