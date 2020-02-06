@@ -63,6 +63,10 @@ int main(){
         if (name[i] == 0){
             cout<<"\nReached the end of the string"<<endl;
         }
+    // if you initialize char like the following
+    // char country[] = "USA"; // a c-string  - char array where the last element is a null
+    // it's easier but you have a null terminator so it has a length of 4 
+    
     }
     cout<<endl;
 
