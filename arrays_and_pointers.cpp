@@ -90,9 +90,9 @@ int main(){
     char *q = &pet[1];
     // q is a pointer of a character and making it point to a particular character in the array
     // so q is pointing to i 
-    cout<<*q<<endl; // would print out i 
+    cout<<*q<<endl; // would print out 'D'
     q = pet; // pet is a pointer, take that address and store it in q, now q is pointing to element 0
-
+    // cannot say pet = something else cause it'll always be the adress of element 0
 
     return 0;
 }
