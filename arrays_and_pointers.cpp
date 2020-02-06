@@ -35,5 +35,16 @@ int main(){
     cout<<numArray<<endl; // Gives you a memory location 
     // The name of the array is synonymous with address of element 0
 
+    // Iterate through an array in two ways
+    // First way, using older C++ notation
+    for (int i = 0; i < 4; i++){
+        cout<<numArray[i]<<" ";
+
+    }
+    // Second way, using range based for loop C++11
+    for(int item: numArray){
+        cout<<item<<" "; // prints each element of the array
+    }
+    
     return 0;
 }
