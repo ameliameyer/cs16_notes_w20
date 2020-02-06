@@ -87,6 +87,11 @@ int main(){
     // because pet is the address of element 0, it acts as a pointer
     *pet = 'A'; // Change element 0 of pet to 'A'
     // Cannot change the pointer itself
+    char *q = &pet[1];
+    // q is a pointer of a character and making it point to a particular character in the array
+    // so q is pointing to i 
+    cout<<*q<<endl; // would print out i 
+    q = pet; // pet is a pointer, take that address and store it in q, now q is pointing to element 0
 
 
     return 0;
