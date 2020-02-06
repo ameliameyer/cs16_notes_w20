@@ -65,7 +65,7 @@ int main(){
         }
     // if you initialize char like the following
     // char country[] = "USA"; // a c-string  - char array where the last element is a null
-    // it's easier but you have a null terminator so it has a length of 4 
+    // it's easier but you have a null terminator so it has a length of 4 because double quotes
     
     }
     cout<<endl;
@@ -79,6 +79,14 @@ int main(){
 
     cout<<"Length of "<<name<<" "<<name.length()<<endl;
 
+    // Useful for h06
+    cout<<"Size of pet "<<sizeof(pet)<<endl; // Gives the size of the array in bites
+    // number of elements in your char array
+    // if it was integers, it would be multiplied by 4 because an integer is 4 bytes
+    cout<<"Size of pet "<<sizeof(pet)/sizeof(char)<<endl;
+    // because pet is the address of element 0, it acts as a pointer
+    *pet = 'A'; // Change element 0 of pet to 'A'
+    // Cannot change the pointer itself
 
 
     return 0;
